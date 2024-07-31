@@ -1,0 +1,41 @@
+.nav-color{
+    background-color: black;
+    color: white !important;
+}
+nav a,li,button{
+    color: white !important;
+}
+.custom-navbar .container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+ ul .dropdown-item{
+    color: black !important;
+  }
+
+
+  
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+.footer .logo-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer .logo-section img {
+    /* max-height: 50px; */
+    width: 16%; /* Adjust to your needs */
+    height: 28px; /* Adjust to your needs */
+    object-fit: cover;
+    margin-right: 15px;
+}

@@ -1,0 +1,50 @@
+.works-section {
+    background-color: #111013;
+    color: white;
+    padding: 50px 0;
+  }
+  .works-header {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  .works-gallery img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  .works-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .logos-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .logos-gallery img {
+    max-width: 100%;
+    margin: 10px;
+  }
+  .view-all-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+  }
+  .fixed-size {
+    width: 100%; /* Adjust to your needs */
+    height: 280px; /* Adjust to your needs */
+    object-fit: cover; /* Ensures image covers the area without stretching */
+  }
+  .logos-gallery img{
+    width: 48%; /* Adjust to your needs */
+    height: 28px; /* Adjust to your needs */
+    object-fit: cover;
+  }

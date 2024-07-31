@@ -1,0 +1,20 @@
+.custom-header {
+    color: white !important;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .card-body h5, .card-body p{
+    color: white !important;
+    
+  }
+  .card-body a{
+    color: white !important;
+    text-decoration: none;
+  }
+  .card-hov{
+    background-color: #111013;
+  }
+  .card-hov:hover{
+    background-color: #c70c2b;
+  }
